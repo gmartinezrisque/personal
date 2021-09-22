@@ -1,0 +1,17 @@
+body{
+    font-family: "Brush Script MT", cursive;
+}
+h1{
+    font-size: 300%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+h1,h2{
+    color:blue;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+img{
+    width: 30%;      
+}
