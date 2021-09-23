@@ -14,14 +14,16 @@
                 <img src="./img/new york bridge.jpg"><img>
                 <p>Bienvenido a mi página personal. Aquí encontrarás todas las ideas que se me pasan por la cabeza y que pretendo llevar a cabo si consigo sacar tiempo algún día.</p>
             </header>
-            <section>                
-                <h2>Proyectos en marcha <i class="fa fa-check-square-o" aria-hidden="true"></i>
+            <section id="proyectosEnMarcha" onmouseover="proyectosEnMarchaOver()" onmouseOut="proyectosEnMarchaNormal()">                
+                <h2>
+                    Proyectos en marcha 
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
                 </h2>
                 <ol>
                     <li>Página personal</li>
                 </ol>
             </section>
-            <section>
+            <section id=ideasEnMente>
                 <h2>Ideas en mente <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
                 </h2>
                 <ul>
@@ -35,5 +37,13 @@
                 <p><span>&copy; Gustavo A. Martínez Risque</span></p>
             </footer>        
         </div>
+        <script>
+            function proyectosEnMarchaOver(){
+                document.getElementById('proyectosEnMarcha').firstElementChild.firstElementChild.style.fontSize = "300%";
+            }
+            function proyectosEnMarchaNormal(){
+                document.getElementById('proyectosEnMarcha').firstElementChild.firstElementChild.style.fontSize = "100%";
+            }
+        </script>
     </body>
 </html>
