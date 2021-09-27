@@ -10,7 +10,7 @@
     <body>
         <div id="container">
             <header>
-                <h1>Gus - Mi página personal</h1>
+                <h1>Gus Página personal</h1>
                 <img src="./img/new york bridge.jpg"><img>
                 <p>Bienvenido a mi página personal. Aquí encontrarás todas las ideas que se me pasan por la cabeza y que pretendo llevar a cabo si consigo sacar tiempo algún día.</p>
             </header>
@@ -23,7 +23,7 @@
                     <li>Página personal</li>
                 </ol>
             </section>
-            <section id=ideasEnMente>
+            <section id=ideasEnMente onmouseover="ideasEnMenteOver()" onmouseOut="ideasEnMenteNormal()">
                 <h2>Ideas en mente <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
                 </h2>
                 <ul>
@@ -31,6 +31,7 @@
                     <li>Acadamia de inglés y mátemáticas</li>
                     <li>Web peluquería</li>
                     <li>Doodle de exámenes tipo test</li>
+                    <li>Cafetería al lado del colegio</li>
                 </ul>
             </section>
             <footer>
@@ -39,10 +40,16 @@
         </div>
         <script>
             function proyectosEnMarchaOver(){
-                document.getElementById('proyectosEnMarcha').firstElementChild.firstElementChild.style.fontSize = "300%";
+                document.getElementById('proyectosEnMarcha').firstElementChild.firstElementChild.style.fontSize = "150%";
             }
             function proyectosEnMarchaNormal(){
                 document.getElementById('proyectosEnMarcha').firstElementChild.firstElementChild.style.fontSize = "100%";
+            }
+            function ideasEnMenteOver(){
+                document.getElementById('ideasEnMente').firstElementChild.firstElementChild.style.fontSize = "150%";
+            }
+            function ideasEnMenteNormal(){
+                document.getElementById('ideasEnMente').firstElementChild.firstElementChild.style.fontSize = "100%";
             }
         </script>
     </body>
