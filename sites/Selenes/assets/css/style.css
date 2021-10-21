@@ -699,6 +699,11 @@ section.pricing {
   transition: all 0.3s;
   border-radius: 4px;
 }
+.portfolio #portfolio-intro{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #c09853;
