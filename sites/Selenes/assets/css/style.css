@@ -965,6 +965,9 @@ section.pricing {
 .team .member:hover .social {
   opacity: 1;
 }
+.team p {
+  font-size: 14px;
+}
 
 /*--------------------------------------------------------------
 # Our Skills
